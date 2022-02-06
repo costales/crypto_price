@@ -10,7 +10,6 @@ def par(coin_from, coin_to, date, time):
     headers = {'X-CoinAPI-Key' : '<your_api_key_from_coinapi.io_here>'}
     
     data = requests.get(url_api, headers=headers).json()
-    print(data)
     return(data[0]['rate_close'])
 
 print(par(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]))
