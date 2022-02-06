@@ -12,6 +12,6 @@ cd crypto_price
 Replace into price.py the string `<your_api_key_from_coinapi.io_here>` for your API key get in https://coinapi.io, then run as:
 
 ```
-./price.py USDT EUR 20-01-2022 13:07
+./price.py USDT EUR 2022-01-20 13:07
 0.09191580553705321
 ```
