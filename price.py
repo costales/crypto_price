@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Run as: ./price2.py USDT EUR 2022-01-20 13:05
+# Run as: ./price.py USDT EUR 2022-01-20 13:05
 # + Info: https://www.coinapi.io
 import requests, sys, datetime
 
